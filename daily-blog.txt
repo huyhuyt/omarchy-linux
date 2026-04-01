@@ -1,0 +1,12 @@
+3/5/2026
+. reinstall omarhcy
+> download omarhcy iso on mac book
+> burn iso with etcher - wait for it complete - at the end it will say usb not read - that's normal.
+> with 2025 or later version omarchy , it comes with ghostty as terminal default and not support for old graphic card.
+> need to swith back old terminal alarcity.
+> pacman -Syu # update latest new package
+> pacman -S alarcity # reinstall alarcity
+> setup monitor by modify 'nvim ~/.config/hypr/monitors.conf' to have
+> hyprctl monitors
+> > monitor=HDMI-A-2,1920x1080@60,0x0,1
+> > monitor=HDMI-A-1,1920x1080@60,1920x0,1
