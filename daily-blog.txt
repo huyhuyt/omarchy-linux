@@ -13,6 +13,7 @@
 > >
 4/1/2026
 . install/setup wifi card aus ax1800 pcie 
+. check network card 'lspci -k'
 . sudo pacman -Syu
 . sudo pacman -S --needed base-devel git linux-headers
 . git clone https://github.com/lwfinger/rtl8852au.git 
