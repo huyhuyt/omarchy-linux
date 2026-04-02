@@ -10,3 +10,11 @@
 > hyprctl monitors
 > > monitor=HDMI-A-2,1920x1080@60,0x0,1
 > > monitor=HDMI-A-1,1920x1080@60,1920x0,1
+> >
+4/1/2026
+. install/setup wifi card aus ax1800 pcie 
+. sudo pacman -Syu
+. sudo pacman -S --needed base-devel git linux-headers
+. git clone https://github.com/lwfinger/rtl8852au.git 
+. yay -S rtl8852au-dkms-git
+. reboot
